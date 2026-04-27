@@ -4,13 +4,17 @@ HTML
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>CHUMA GINUS MEDIA</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
 
 <style>
-*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;}
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
 
 body{
 background:#0a0f1c;
@@ -21,8 +25,8 @@ overflow-x:hidden;
 /* NAV */
 nav{
 position:fixed;
-width:100%;
 top:0;
+width:100%;
 display:flex;
 justify-content:space-between;
 padding:20px;
@@ -33,7 +37,6 @@ z-index:1000;
 
 nav h1{
 font-size:18px;
-letter-spacing:1px;
 }
 
 nav a{
@@ -52,7 +55,6 @@ justify-content:center;
 align-items:center;
 text-align:center;
 padding:20px;
-
 background:
 linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.85)),
 url('https://i.ibb.co/5WndGs3s/IMG-20260403-232659.png') center/cover no-repeat;
@@ -82,10 +84,10 @@ transition:0.3s;
 }
 
 .btn:hover{
-transform:scale(1.1);
+transform:scale(1.08);
 }
 
-/* SECTIONS */
+/* SECTION */
 .section{
 padding:80px 20px;
 text-align:center;
@@ -105,14 +107,14 @@ gap:20px;
 
 .card{
 background:rgba(255,255,255,0.05);
-backdrop-filter:blur(10px);
 padding:25px;
 border-radius:15px;
+backdrop-filter:blur(8px);
 transition:0.3s;
 }
 
 .card:hover{
-transform:translateY(-10px);
+transform:translateY(-8px);
 background:rgba(255,255,255,0.1);
 }
 
@@ -132,6 +134,25 @@ text-align:center;
 font-size:14px;
 }
 
+/* WHATSAPP */
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+font-size:28px;
+width:60px;
+height:60px;
+display:flex;
+align-items:center;
+justify-content:center;
+border-radius:50%;
+text-decoration:none;
+box-shadow:0 6px 15px rgba(0,0,0,0.4);
+z-index:9999;
+}
+
 /* ANIMATION */
 @keyframes fadeUp{
 from{
@@ -148,6 +169,8 @@ transform:translateY(0);
 @media(max-width:600px){
 .hero h2{font-size:26px;}
 .hero p{font-size:15px;}
+nav h1{font-size:14px;}
+nav a{font-size:12px;}
 }
 </style>
 </head>
@@ -171,9 +194,7 @@ transform:translateY(0);
 
 <section class="section">
 <h3>About Us</h3>
-<p>At CHUMA GINUS MEDIA, we don’t just create content — we build visibility, authority, and influence for brands.
-
-We help businesses and individuals reposition themselves digitally through powerful storytelling, strategic branding, and high-impact media production.</p>
+<p>At CHUMA GINUS MEDIA, we build visibility, authority and influence for brands through creative storytelling, strategic branding and premium media production.</p>
 </section>
 
 <section id="services" class="section">
@@ -183,43 +204,44 @@ We help businesses and individuals reposition themselves digitally through power
 
 <div class="card">
 <h4>Video Production</h4>
-<p>We create compelling video content that captures attention and converts viewers into customers.</p>
+<p>Compelling videos that attract attention and convert viewers into customers.</p>
 </div>
 
 <div class="card">
 <h4>Graphic Design</h4>
-<p>We design visuals that communicate your message clearly and position your brand professionally.</p>
+<p>Professional visuals that elevate your business identity.</p>
 </div>
 
 <div class="card">
 <h4>Publishing</h4>
-<p>From books to journals, we help you turn your ideas into published authority that builds credibility.</p>
+<p>Books, journals and authority-building content publishing.</p>
 </div>
 
 <div class="card">
 <h4>Brand Strategy</h4>
-<p>We reposition your business to stand out, attract the right audience, and grow consistently online.</p>
+<p>We reposition brands to grow consistently online.</p>
 </div>
 
 </div>
-
 </section>
 
 <section class="cta">
 <h3>Ready to Grow Your Brand?</h3>
-<p>Let’s help you stand out, attract clients, and dominate your space.</p>
+<p>Let’s help you dominate your market and attract clients.</p>
 <a href="#contact" class="btn">Start Your Project</a>
 </section>
 
 <section id="contact" class="section">
 <h3>Let’s Work Together</h3>
 <p>Email: chukwumaakpagidelem@gmail.com</p>
-<p>Call/WhatsApp: +234-8028030634</p>
+<p>Call / WhatsApp: +234-8028030634</p>
 </section>
 
 <footer>
 <p>© 2026 CHUMA GINUS MEDIA</p>
 </footer>
+
+<a href="https://wa.me/2348028030634" target="_blank" class="whatsapp">💬</a>
 
 </body>
 </html>
