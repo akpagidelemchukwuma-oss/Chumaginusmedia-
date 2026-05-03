@@ -33,9 +33,9 @@ font-size:30px;
 }
 
 .container{
-max-width:1100px;
+max-width:1180px;
 margin:auto;
-padding:40px 20px;
+padding:50px 20px;
 }
 
 .back{
@@ -47,7 +47,7 @@ text-decoration:none;
 
 .title{
 text-align:center;
-font-size:36px;
+font-size:38px;
 color:#d4af37;
 margin-bottom:10px;
 }
@@ -55,47 +55,66 @@ margin-bottom:10px;
 .sub{
 text-align:center;
 color:#cccccc;
-margin-bottom:40px;
+max-width:760px;
+margin:0 auto 40px auto;
 }
 
-.grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-gap:20px;
-}
-
-.card{
+.featured{
 background:#111;
-padding:25px;
-border-radius:14px;
-border:1px solid #333;
+border:2px solid #d4af37;
+border-radius:16px;
+padding:30px;
+margin-bottom:40px;
+box-shadow:0 0 20px rgba(212,175,55,0.15);
 }
 
 .stars{
 color:#d4af37;
-font-size:20px;
-margin-bottom:10px;
+font-size:22px;
+margin-bottom:14px;
 }
 
 .quote{
-color:#eeeeee;
-margin-bottom:14px;
+font-size:18px;
+color:#f0f0f0;
+margin-bottom:18px;
 }
 
 .name{
 color:#d4af37;
 font-weight:bold;
+font-size:18px;
 }
 
 .role{
-color:#999999;
+color:#bbbbbb;
 font-size:14px;
+margin-top:6px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:22px;
+}
+
+.card{
+background:#111;
+padding:24px;
+border-radius:14px;
+border:1px solid #333;
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-5px);
+border-color:#d4af37;
 }
 
 .btn{
 display:inline-block;
-margin-top:14px;
-padding:12px 20px;
+margin-top:18px;
+padding:12px 22px;
 background:#25D366;
 color:#000;
 text-decoration:none;
@@ -115,6 +134,9 @@ margin-top:50px;
 .title{
 font-size:28px;
 }
+.quote{
+font-size:16px;
+}
 }
 </style>
 </head>
@@ -132,8 +154,27 @@ font-size:28px;
 <h2 class="title">Client Testimonials</h2>
 
 <p class="sub">
-Trusted by clients who value professionalism, quality and results.
+Trusted by premium clients at home and abroad who value quality, professionalism and results.
 </p>
+
+<div class="featured">
+
+<div class="stars">★★★★★ Featured Client Review</div>
+
+<p class="quote">
+“For many years, I had the dream of writing my autobiography, but time constraints prevented it. This dream remained unrealized until a trusted friend introduced me to Chuma Ginus Media. After brief consultations, we reached an agreement. I am happy to say the project is nearing completion, and soon my book will be published.”
+</p>
+
+<div class="name">
+HRH Barr. Sampson O. Inyama
+</div>
+
+<div class="role">
+USA-Based Nigerian Client • Owner of the premium biography:
+The Man Sampson O. Inyama – The Philanthropist of Our Time
+</div>
+
+</div>
 
 <div class="grid">
 
@@ -167,28 +208,10 @@ They understood the vision immediately and turned it into something classy and p
 <div class="card">
 <div class="stars">★★★★★</div>
 <p class="quote">
-Discreet handling, strong attention to detail, and a result worthy of public presentation.
-</p>
-<div class="name">Private Client</div>
-<div class="role">Confidential Work</div>
-</div>
-
-<div class="card">
-<div class="stars">★★★★★</div>
-<p class="quote">
 Rare combination of creativity and professionalism. We will gladly work again.
 </p>
 <div class="name">Repeat Client</div>
 <div class="role">Brand Development</div>
-</div>
-
-<div class="card">
-<div class="stars">★★★★★</div>
-<p class="quote">
-Their service gave us confidence. We felt we were dealing with serious professionals.
-</p>
-<div class="name">Diaspora Client</div>
-<div class="role">International Project</div>
 </div>
 
 </div>
