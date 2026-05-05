@@ -5,14 +5,7 @@ HTML
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Global Portfolio | Biography Writing & Publishing Projects | Chuma Ginus Media</title>
-
-<meta name="description" content="Explore biography writing, book publishing and executive media portfolio by Chuma Ginus Media serving Nigeria and international clients worldwide.">
-
-<meta name="keywords" content="portfolio biography writer Nigeria, publishing projects Africa, memoir portfolio Lagos, global media portfolio">
-
-<meta name="author" content="Chuma Ginus Media">
-<meta name="robots" content="index, follow">
+<title>Portfolio | Chuma Ginus Media</title>
 
 <style>
 *{
@@ -22,140 +15,102 @@ box-sizing:border-box;
 }
 
 body{
-font-family:Arial,sans-serif;
+font-family:Arial, sans-serif;
 background:#050505;
-color:#ffffff;
-line-height:1.6;
+color:#fff;
 }
 
+/* NAVIGATION */
 header{
 background:#000;
-padding:20px;
-text-align:center;
+padding:15px 20px;
 border-bottom:1px solid #222;
 }
 
-header h1{
-color:#d4af37;
-font-size:30px;
-}
-
-.container{
-max-width:1200px;
-margin:auto;
-padding:40px 20px;
-}
-
-.back{
-display:inline-block;
-margin-bottom:25px;
-color:#d4af37;
-text-decoration:none;
-}
-
-.hero{
-display:grid;
-grid-template-columns:1fr 1fr;
-gap:35px;
+nav{
+display:flex;
+justify-content:space-between;
 align-items:center;
-margin-bottom:60px;
+flex-wrap:wrap;
 }
 
-.hero img{
-width:100%;
-max-width:520px;
-border-radius:14px;
-box-shadow:0 0 30px rgba(212,175,55,0.18);
-}
-
-.hero h2{
-font-size:42px;
+.logo{
 color:#d4af37;
-margin-bottom:18px;
+font-size:22px;
+font-weight:bold;
+}
+
+nav a{
+color:#fff;
+text-decoration:none;
+margin-left:15px;
+font-size:14px;
+}
+
+nav a:hover{
+color:#d4af37;
+}
+
+/* HERO */
+.hero{
+text-align:center;
+padding:50px 20px;
+}
+
+.hero h1{
+color:#d4af37;
+font-size:32px;
+margin-bottom:10px;
 }
 
 .hero p{
-font-size:18px;
-color:#dddddd;
-margin-bottom:16px;
+color:#ccc;
 }
 
-.btn{
-display:inline-block;
-padding:13px 22px;
-background:#25D366;
-color:#000;
-text-decoration:none;
-font-weight:bold;
-border-radius:8px;
-margin-top:8px;
-}
-
-.section-title{
-text-align:center;
-font-size:34px;
-color:#d4af37;
-margin:40px 0 28px;
-}
-
+/* GRID */
 .grid{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-gap:22px;
+grid-template-columns:repeat(auto-fit, minmax(250px,1fr));
+gap:20px;
+padding:20px;
+max-width:1100px;
+margin:auto;
 }
 
 .card{
 background:#111;
-padding:22px;
-border-radius:14px;
+border-radius:10px;
+overflow:hidden;
 border:1px solid #333;
-transition:0.3s;
-}
-
-.card:hover{
-transform:translateY(-6px);
-border-color:#d4af37;
 }
 
 .card img{
 width:100%;
-height:220px;
+height:260px;
 object-fit:cover;
-border-radius:10px;
-margin-bottom:14px;
+}
+
+.card-content{
+padding:15px;
 }
 
 .card h3{
 color:#d4af37;
-margin-bottom:10px;
+margin-bottom:8px;
 }
 
 .card p{
-color:#dddddd;
+color:#ccc;
+font-size:14px;
 }
 
+/* FOOTER */
 footer{
 text-align:center;
-padding:30px;
+padding:25px;
+margin-top:30px;
 border-top:1px solid #222;
 color:#999;
-margin-top:60px;
-}
-
-@media(max-width:850px){
-
-.hero{
-grid-template-columns:1fr;
-text-align:center;
-}
-
-.hero h2{
-font-size:30px;
-}
-
-.hero img{
-margin:auto;
-}
 }
 </style>
 </head>
@@ -163,85 +118,64 @@ margin:auto;
 <body>
 
 <header>
-<h1>Chuma Ginus Media</h1>
+<nav>
+<div class="logo">Chuma Ginus Media</div>
+
+<div>
+<a href="./index.html">Home</a>
+<a href="./portfolio.html">Portfolio</a>
+<a href="./pricing.html">Pricing</a>
+<a href="./testimonials.html">Testimonials</a>
+<a href="./payment.html" style="color:#25D366;">Start</a>
+</div>
+
+</nav>
 </header>
 
-<div class="container">
+<section class="hero">
+<h1>Our Portfolio</h1>
+<p>Premium biography, publishing and media projects across Nigeria and globally.</p>
+</section>
 
-<a href="index.html" class="back">← Back Home</a>
+<section class="grid">
 
-<div class="hero">
-
-<div>
-<img src="1775044299.png" alt="The Man Sampson Okwudire Inyama Book">
-</div>
-
-<div>
-<h2>Featured Global Biography Project</h2>
-
-<p>
-A premium autobiography project crafted for a respected Nigerian diaspora client based in the United States.
-</p>
-
-<p>
-<strong>The Man Sampson Okwudire Inyama – The Philanthropist of Our Time</strong>
-</p>
-
-<p>
-Professional writing, editing, formatting and publishing-ready presentation.
-</p>
-
-<a href="https://wa.me/2348028030634" class="btn">
-Start Your Own Project
-</a>
-
-</div>
-
-</div>
-
-<h2 class="section-title">International Portfolio Highlights</h2>
-
-<div class="grid">
-
+<!-- REAL BOOK -->
 <div class="card">
-<img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=900&q=80">
-<h3>Global Client Meetings</h3>
-<p>Serving both African and international clients with premium communication and delivery.</p>
+<img src="1775044299.png" alt="Sampson Inyama Book">
+<div class="card-content">
+<h3>The Man Sampson O. Inyama</h3>
+<p>A premium biography project crafted with international standard storytelling and presentation.</p>
+</div>
 </div>
 
+<!-- GLOBAL CLIENT -->
 <div class="card">
-<img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=900&q=80">
-<h3>Multinational Branding</h3>
-<p>Projects designed for diverse audiences, businesses and diaspora markets.</p>
+<img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d" alt="">
+<div class="card-content">
+<h3>Global Executive Project</h3>
+<p>High-level storytelling and documentation for global clients and professionals.</p>
+</div>
 </div>
 
+<!-- AFRICAN PROJECT -->
 <div class="card">
-<img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=900&q=80">
-<h3>Biography Writing</h3>
-<p>Turning life achievements into timeless books and legacy assets.</p>
+<img src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6" alt="">
+<div class="card-content">
+<h3>African Legacy Project</h3>
+<p>Capturing powerful African stories and transforming them into timeless books.</p>
+</div>
 </div>
 
+<!-- MEDIA PRODUCTION -->
 <div class="card">
-<img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=900&q=80">
-<h3>Publishing Excellence</h3>
-<p>Book covers, formatting, editing and guided publishing support.</p>
+<img src="https://images.unsplash.com/photo-1492724441997-5dc865305da7" alt="">
+<div class="card-content">
+<h3>Media Production</h3>
+<p>Professional video production and branding for executive clients.</p>
+</div>
 </div>
 
-<div class="card">
-<img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=80">
-<h3>Executive Media</h3>
-<p>Luxury documentaries, promo campaigns and authority storytelling.</p>
-</div>
-
-<div class="card">
-<img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=900&q=80">
-<h3>Creative Strategy</h3>
-<p>Helping clients launch books, brands and influence globally.</p>
-</div>
-
-</div>
-
-</div>
+</section>
 
 <footer>
 © 2026 Chuma Ginus Media
